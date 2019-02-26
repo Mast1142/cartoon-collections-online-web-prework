@@ -23,7 +23,7 @@ def find_the_cheese(arg)
     if cheese_types.include?(x) == true
       return x
     else 
-      return nil
+      nil
     end
   end
 end
