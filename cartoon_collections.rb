@@ -19,10 +19,7 @@ end
 
 def find_the_cheese(arg)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arg.each do |x|
-    if cheese_types.include?(x) == true
-      return x
-    end
+  arg.find do |x|
+    cheese_types.include?(x) == true
   end
-  return nil
 end
