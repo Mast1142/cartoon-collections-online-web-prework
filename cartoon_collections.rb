@@ -23,7 +23,6 @@ def find_the_cheese(arg)
     arg.any? do |n|
       n == cheese_types
       return n
-      binding.pry
     end
   else
     nil
