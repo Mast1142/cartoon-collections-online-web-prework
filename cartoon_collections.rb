@@ -22,8 +22,7 @@ def find_the_cheese(arg)
   arg.each do |x|
     if cheese_types.include?(x) == true
       return x
-    else 
-      nil
     end
   end
+  return nil
 end
